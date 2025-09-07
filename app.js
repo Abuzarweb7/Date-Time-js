@@ -93,11 +93,19 @@
 // console.log(newYear("2026-01-01 00:00:00"));
 
 
-let date1 = new Date()
-let date2 = new Date()
-
-let milliSecond = date1 - date2
-let minute = Math.floor(milliSecond/1000/60)
-let hour =  Math.floor(milliSecond/1000/60 /60)
 
 
+// Q8
+
+
+// function towDates(date1,date2){
+//     const d1 = new Date(date1)
+//      const d2 = new Date(date2)
+//     const milliSeconds = Math.abs(d2 - d1)
+//     const totalMin = Math.floor(milliSeconds/1000/60)
+//     const hour = Math.floor(totalMin/60)
+//     const minutes = hour % 60
+//     return `${hour} hours ${minutes} is minutes`
+// }
+
+// console.log(towDates("2025-09-07T10:45:30.000Z" , "2025-09-07T11:55:30.000Z"));
