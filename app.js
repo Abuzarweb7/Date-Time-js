@@ -109,3 +109,49 @@
 // }
 
 // console.log(towDates("2025-09-07T10:45:30.000Z" , "2025-09-07T11:55:30.000Z"));
+
+
+
+
+// Q9
+
+
+// function checkWeekdays(weekdays){
+// const date = new Date(weekdays)
+// const day = date.getDay()
+
+
+// if(day === 0 || day ===  4){
+//     return "weekend"
+// }
+// else{
+//     return "weekday"
+// }
+
+// }
+// console.log(checkWeekdays("2025-09-07"));
+
+
+
+// // Q10
+// function compareBirthdays(dob1, dob2) {
+//   const date1 = new Date(dob1);
+//   const date2 = new Date(dob2);
+
+//   let olderPerson;
+//   if (date1 < date2) {
+//     olderPerson = "Person 1";
+//   } else if (date2 < date1) {
+//     olderPerson = "Person 2";
+//   } else {
+//     return "Both are of the same age!";
+//   }
+
+//   const diffInMs = Math.abs(date1 - date2);
+//   const diffInDays = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
+//   const years = Math.floor(diffInDays / 365);
+//   const days = diffInDays % 365;
+
+//   return `${olderPerson} is older by ${years} year(s) and ${days} day(s).`;
+// }
+// console.log(compareBirthdays("2000-01-15", "1998-12-10"));
